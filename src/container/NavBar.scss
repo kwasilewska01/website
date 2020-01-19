@@ -1,0 +1,60 @@
+.navbar-expand-lg .navbar-nav .nav-link + .btn_contact {
+    @media screen and (min-width:991px) {
+        color: #49b4a9;
+        border: 1px solid;
+        border-radius: 5px;
+        padding-left: 1.75rem;
+        padding-right: 1.75rem;
+        margin-left: 1.25rem;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        &:hover{
+            background-color: #6addc8;
+            color:#fff;
+        }
+        &:after{
+            content: "";
+            position: absolute;
+            height: 0%;
+            left: 50%;
+            top: 50%;
+            width: 150%;
+            z-index: -1;
+            -webkit-transition: all 0.75s ease 0s;
+            -moz-transition: all 0.75s ease 0s;
+            -o-transition: all 0.75s ease 0s;
+            transition: all 0.75s ease 0s;
+        }
+    }
+}
+a{
+    color: #202d3d;
+    font-weight: 500;
+    &:hover{
+        color:#6addc8;
+        text-decoration: none;
+    }
+}
+.navbar {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.navbar-toggler {
+    color: #49b4a9;
+    &:hover{
+        color:#6addc8;
+    }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+}
+
+.btn_contact-mobile {
+    @media screen and (max-width:991px) {
+        color:#202d3d;
+    }
+}

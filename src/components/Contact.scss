@@ -1,0 +1,24 @@
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.text-content-center {
+    text-align: -webkit-center;
+}
+
+.btn-send-message {
+    background: linear-gradient(135deg,#364960 0,#202d3d 100%);
+    &:hover{
+        background-color: #364960;
+    }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:active, .btn-primary:not(:disabled):not(.disabled):active:active, .show > .btn-primary.dropdown-toggle:active {
+    background: #364960;
+}
+
+.btn:focus {
+    background: #364960;
+}

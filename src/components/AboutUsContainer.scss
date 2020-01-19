@@ -1,0 +1,48 @@
+.super_text{
+    // color: #6addc8;
+    background: linear-gradient(135deg,#364960 0,#202d3d 100%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.btn {
+    font-weight: 500;
+    border-radius: 30px;
+    transition: none;
+    background: linear-gradient(135deg,#6addc8 0,#49b4a9 100%);
+    font-size: 14px; 
+    color: #fff; 
+    text-transform: uppercase; 
+    text-decoration: none;
+    padding: 15px 45px; margin: 0;
+    border: none;
+    position: relative;
+    display: inline-block;
+    &:hover {
+        background: #6addc8;
+      text-decoration: none;
+    }
+    &:focus {
+        background: linear-gradient(135deg,#6addc8 0,#49b4a9 100%);
+      outline: none;
+    }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  &:active {
+      background: #49b4a9;
+      outline: none;
+      border-color:none;
+  }
+}
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+section[id='aboutUs']{
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+}

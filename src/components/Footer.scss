@@ -1,0 +1,17 @@
+.navbar-fixed-bottom{
+    background-color: #364960;
+}
+
+.footer-padding-body {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.footer--spadeIcon__color path{
+cursor: pointer;
+    &:not(:hover) {
+        color: white;
+        fill: white;
+        cursor: pointer;
+    }
+}
