@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.1d9df9f7.chunk.css",
+    "main.js": "/website/static/js/main.31288247.chunk.js",
+    "main.js.map": "/website/static/js/main.31288247.chunk.js.map",
+    "runtime~main.js": "/website/static/js/runtime~main.de462641.js",
+    "runtime~main.js.map": "/website/static/js/runtime~main.de462641.js.map",
+    "static/js/2.8a90f6cf.chunk.js": "/website/static/js/2.8a90f6cf.chunk.js",
+    "static/js/2.8a90f6cf.chunk.js.map": "/website/static/js/2.8a90f6cf.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.4cb62494cf02eae9eb234bf66ce3d9c2.js": "/website/precache-manifest.4cb62494cf02eae9eb234bf66ce3d9c2.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/main.1d9df9f7.chunk.css.map": "/website/static/css/main.1d9df9f7.chunk.css.map",
+    "static/media/arrow.bc7d6bd1.svg": "/website/static/media/arrow.bc7d6bd1.svg",
+    "static/media/coworking.svg": "/website/static/media/coworking.2d176f62.svg",
+    "static/media/hiring.svg": "/website/static/media/hiring.3f64d739.svg",
+    "static/media/interview.svg": "/website/static/media/interview.10643f4e.svg",
+    "static/media/mailbox.svg": "/website/static/media/mailbox.dbff3bb9.svg",
+    "static/media/percentages.svg": "/website/static/media/percentages.1ea6e586.svg",
+    "static/media/setupwizard.svg": "/website/static/media/setupwizard.7e1b362a.svg",
+    "static/media/spade.ba3e0ca4.svg": "/website/static/media/spade.ba3e0ca4.svg"
+  }
+}
